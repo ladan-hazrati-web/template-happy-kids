@@ -2,7 +2,6 @@
 
 
 ![viewfinal](https://github.com/ladan-hazrati-web/template-happy-kids/assets/119695832/692221de-386e-44b6-aa95-4907e49d7fea)
-)
 **You can see information about my project**
 - [Demo Project](https://ladan-hazrati-web.github.io/template-happy-kids/)
 
