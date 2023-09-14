@@ -1,0 +1,49 @@
+@media screen and (max-width:992px) {
+    #nav>ul {
+        display: none !important;
+    }
+
+    #nav>span {
+        display: flex;
+    }
+
+    #nav>figure {
+        width: 150px !important;
+
+    }
+
+    #nav>figure>img {
+        width: 100%;
+    }
+
+    .bg_site {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg_site>figure {
+        width: 100%;
+        height: 250px !important;
+    }
+
+    .bg_site>figure>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    form>textarea,
+    form>a {
+        align-self: center !important;
+    }
+}
+
+
+
+@media screen and (min-width:992px) {
+    #nav>span {
+        display: none !important;
+    }
+
+
+}

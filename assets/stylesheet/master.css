@@ -1,0 +1,467 @@
+#main > #head {
+  width: 100%;
+  background-color: #8fc0ea;
+  background-image: url(../img/clouds_retina-3edb2xe7pysyx1q33uigwa.png);
+  background-repeat: no-repeat;
+  border-top: 5px solid #3185cb;
+  padding: 0 110px;
+}
+#main > #head > #head_top {
+  width: 100%;
+  background-image: url(../img/pattern_balloons.png);
+  background-repeat: no-repeat;
+}
+#main > #head > #head_top > .row {
+  width: 100%;
+}
+#main > #head > #head_top > .row > .socials {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+}
+#main > #head > #head_top > .row > .socials > ul {
+  display: flex;
+}
+#main > #head > #head_top > .row > .socials > ul > li {
+  width: 100%;
+  height: 100%;
+  margin: 0 1px;
+}
+#main > #head > #head_top > .row > .socials > ul > li > a {
+  display: flex;
+  padding: 10px;
+  background-color: rgba(49, 134, 203, 0.6196078431);
+  position: relative;
+}
+#main > #head > #head_top > .row > .socials > ul > li > a > img {
+  position: relative;
+  z-index: 1;
+}
+#main > #head > #head_top > .row > .socials > ul > li > a::before {
+  content: " ";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0b5491;
+  opacity: 0;
+  transition: 0.4s;
+}
+#main > #head > #head_top > .row > .socials > ul > li > a:hover::before {
+  opacity: 1;
+  top: 0;
+  height: 100%;
+}
+#main > #head > #head_top > .row {
+  width: 100%;
+  height: 100%;
+}
+#main > #head > #head_top > .row #nav {
+  width: 100%;
+  height: 60px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+#main > #head > #head_top > .row #nav > span {
+  display: flex;
+  font-size: 22px;
+  padding: 5px 10px;
+  background-color: #3185cb;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#main > #head > #head_top > .row #nav > figure {
+  width: 200px;
+}
+#main > #head > #head_top > .row #nav > figure > img {
+  width: 100%;
+}
+#main > #head > #head_top > .row #nav > .menu {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#main > #head > #head_top > .row #nav > .menu > li {
+  width: 75px;
+  height: 100%;
+  margin: 0 1px;
+  position: relative;
+}
+#main > #head > #head_top > .row #nav > .menu > li:hover > .drop {
+  height: 150px;
+}
+#main > #head > #head_top > .row #nav > .menu > li > .drop {
+  overflow: hidden;
+  height: 0;
+  width: 190%;
+  position: absolute;
+  background-color: #3185cb;
+  top: 68px;
+  z-index: 200;
+  transition: 0.4s;
+}
+#main > #head > #head_top > .row #nav > .menu > li > .drop > li {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+#main > #head > #head_top > .row #nav > .menu > li > .drop > li:hover {
+  background-color: #8fc0ea;
+}
+#main > #head > #head_top > .row #nav > .menu > li > .drop > li::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  background-color: gray;
+  bottom: 0;
+  left: 5%;
+  z-index: -1;
+}
+#main > #head > #head_top > .row #nav > .menu > li > .drop > li > a {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#main > #head > #head_top > .row #nav > .menu > li > a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #3185cb;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  box-shadow: 0 4px 0px 0px #2b75b2;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main > #head > #head_top > .row #nav > .menu > li > a:hover {
+  background-color: #ff633c;
+  box-shadow: 0 4px 0px 0px #d65839;
+}
+#main > #head > #head_top > .bg_site {
+  width: 100%;
+  border: 10px solid white;
+  border-radius: 20px;
+  transform: translateY(40px);
+  cursor: pointer;
+}
+#main > #head > #head_top > .bg_site > figure {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+#main > #head > #head_top > .bg_site > figure:hover > div {
+  opacity: 1;
+  left: 0%;
+  width: 100%;
+}
+#main > #head > #head_top > .bg_site > figure > div {
+  width: 0;
+  height: 100%;
+  background-image: url(../img/angry.jpg);
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0;
+  transition: 0.4s;
+}
+#main > #head > #head_top > .bg_site > figure > div > img {
+  width: 100%;
+  height: 100%;
+}
+#main > #head > #head_top > .bg_site > figure > img {
+  width: 100%;
+  height: 100%;
+}
+#main > .row {
+  width: 100%;
+}
+#main > .row > .card {
+  width: 100%;
+  background-color: #FCF5D5;
+  border-top: 10px solid #FEE6B4;
+  border-bottom: 10px solid #FEE6B4;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#main > .row > .card > article {
+  width: 350px;
+  display: flex;
+  margin-top: 35px;
+}
+#main > .row > .card > article > figure {
+  width: 100px;
+  margin-right: 12px;
+}
+#main > .row > .card > article > figure img {
+  width: 100%;
+}
+#main > .row > .card > article > div {
+  width: 100%;
+}
+#main > .row > .card > article > div > h2 {
+  color: #a2825c;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#main > .row > .card > article > div > p {
+  color: #af946e;
+  margin: 12px 0;
+}
+#main > .row > .card > article > div > a {
+  display: flex;
+  width: 80px;
+  padding: 5px 0;
+  color: white;
+  background-color: #3185cb;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 0px 0px #2b75b2;
+  margin: 0 auto;
+  border-radius: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#main > .row > .card > article > div > a:hover {
+  background-color: #ff633c;
+  box-shadow: 0 4px 0px 0px #d65839;
+}
+#main .row {
+  width: 100%;
+}
+#main .row > h2 {
+  color: #3185cb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px 110px;
+  padding-bottom: 10px;
+}
+#main .row > .projects {
+  width: 100%;
+  min-height: 400px;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+#main .row > .projects > article {
+  width: 230px;
+  text-align: center;
+}
+#main .row > .projects > article > figure {
+  width: 100%;
+  margin-top: 20px;
+  border: 8px solid #FEE6B4;
+  cursor: pointer;
+  position: relative;
+}
+#main .row > .projects > article > figure:hover::after {
+  opacity: 1;
+}
+#main .row > .projects > article > figure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.468);
+  opacity: 0;
+  transition: 0.4s;
+  z-index: 10;
+}
+#main .row > .projects > article > figure:hover > figcaption {
+  opacity: 100;
+}
+#main .row > .projects > article > figure > figcaption {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: calc(50% - 25px);
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.4s;
+  z-index: 50;
+}
+#main .row > .projects > article > figure > figcaption > img {
+  border-radius: 7px;
+}
+#main .row > .projects > article > figure > img {
+  width: 100%;
+}
+#main .row > .projects > article > h3 {
+  margin-top: 15px;
+  font-size: 25px;
+  color: #a2825c;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#main .row > .projects > article > p {
+  color: #a2825c;
+  margin-top: 8px;
+}
+#main > .posts {
+  width: 100%;
+  padding-bottom: 30px;
+}
+#main > .posts > h2 {
+  color: #3185cb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 30px 110px;
+  padding-bottom: 10px;
+}
+#main > .posts > .row {
+  justify-content: space-evenly;
+}
+#main > .posts > .row > section {
+  width: 400px;
+  margin-top: 30px;
+}
+#main > .posts > .row > section > div:first-of-type {
+  width: 100%;
+  background-color: #fcf5d5;
+  padding-bottom: 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#main > .posts > .row > section > div:first-of-type > figure {
+  width: 250px;
+}
+#main > .posts > .row > section > div:first-of-type > figure > img {
+  width: 100%;
+  shape-outside: border-box;
+  float: left;
+  padding: 20px;
+  padding-bottom: 0;
+}
+#main > .posts > .row > section > div:first-of-type > p {
+  padding: 0 10px;
+  color: #b89f7a;
+  text-align: justify;
+}
+#main > .posts > .row > section > div:first-of-type > h3 {
+  padding: 20px;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #b89f7a;
+}
+#main > .posts > .row > section > div:last-of-type {
+  background-color: #fee6b4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 20px;
+}
+#main > .posts > .row > section > div:last-of-type > p {
+  color: #887052;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#main > .posts > .row > section > div:last-of-type > p > span {
+  color: #3185cb;
+}
+#main > .posts > .row > section > div:last-of-type > a {
+  background-color: #3185cb;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0 4px 0px 0px #2b75b2;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+#main > .posts > .row > section > div:last-of-type > a:hover {
+  background-color: #ff633c;
+  box-shadow: 0 4px 0px 0px #d65839;
+}
+#main > #foot > figure {
+  width: 100%;
+  margin-top: 50px;
+  border-bottom: 15px solid #2b75b2;
+}
+#main > #foot > figure > img {
+  width: 100%;
+}
+#main > #foot > section {
+  width: 100%;
+  background-color: #3185cb;
+  padding: 50px 110px;
+}
+#main > #foot > section > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main > #foot > section > form > input {
+  width: 100%;
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #e2f2ff;
+  outline: 0;
+  border-bottom: 1px solid black;
+  border: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#main > #foot > section > form > textarea {
+  background-color: #e2f2ff;
+  align-self: flex-start;
+  outline: 0;
+  border-bottom: 1px solid black;
+  border: none;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#main > #foot > section > form > input::-moz-placeholder, #main > #foot > section > form > textarea::-moz-placeholder {
+  font-size: 20px;
+  font-weight: bold;
+}
+#main > #foot > section > form > input::placeholder,
+#main > #foot > section > form > textarea::placeholder {
+  font-size: 20px;
+  font-weight: bold;
+}
+#main > #foot > section > form > a {
+  align-self: flex-start;
+  background-color: #0b5491;
+  color: white;
+  box-shadow: 0 4px 0px 0px #2b75b2;
+  margin-top: 15px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#main > #foot > section > form > a:hover {
+  background-color: #ff633c;
+  box-shadow: 0 4px 0px 0px #d65839;
+}
+#main > #foot > div {
+  background-color: #2b75b2;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 110px;
+  min-height: 50px;
+}
+#main > #foot > div > p {
+  margin-top: 10px;
+}/*# sourceMappingURL=master.css.map */
